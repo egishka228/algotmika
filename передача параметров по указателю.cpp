@@ -1,0 +1,13 @@
+void f (int *a)
+{
+    (*a)++;
+}
+
+int main ()
+{
+    int x = 10;
+    
+    
+    
+    f(&x);
+}
